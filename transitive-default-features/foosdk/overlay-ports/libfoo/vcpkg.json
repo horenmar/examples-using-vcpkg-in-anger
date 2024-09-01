@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "libfoo",
+  "version": "0.0.0",
+  "description": "Show how default-features settings are not respected in transitive deps",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": ["png"],
+      "version>=": "4.8.0"
+    }
+  ]
+}
