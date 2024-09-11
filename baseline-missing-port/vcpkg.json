@@ -1,13 +1,16 @@
 {
-  "name": "baseline-constraints",
+  "name": "baseline-missing-port",
   "dependencies": [
-    { "name": "fmt", "version>=": "9.1.0" }
+    {
+      "name": "boost-cmake",
+      "version>=": "1.85.0"
+    }
   ],
   "vcpkg-configuration" : {
     "default-registry": {
       "kind": "git",
       "repository": "https://github.com/Microsoft/vcpkg",
-      "baseline": "0e47c1985273129e4d0ee52ff73bed9125555de8"
+      "baseline": "16ee2ecb31788c336ace8bb14c21801efb6836e4"
     }
   }
 }

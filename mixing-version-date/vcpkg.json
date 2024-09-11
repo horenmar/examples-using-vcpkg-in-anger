@@ -1,9 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
   "name": "foosdk",
   "version": "0.0.0",
-  "description": "Show version type mismatch issue",
-  "builtin-baseline": "1d206dae085048388c7034eff0058899fedcb1ba",
   "dependencies": [
     { "name": "abseil", "version>=": "2021-03-24" }
   ]

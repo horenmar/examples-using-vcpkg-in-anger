@@ -1,0 +1,6 @@
+{
+  "name": "no-baseline",
+  "dependencies": [
+    "fmt"
+  ]
+}
